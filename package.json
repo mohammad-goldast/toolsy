@@ -11,13 +11,13 @@
     "url": "git+https://github.com/mohammad-goldast/toolsy.git"
   },
   "keywords": [
-    "JavaScript",
+    "javascript",
     "tools",
     "utils",
     "utilities",
     "js_tools"
   ],
-  "author": "Mohammad Goldast",
+  "author": "Mohammad Goldast <goldast.xps@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/mohammad-goldast/toolsy/issues"
