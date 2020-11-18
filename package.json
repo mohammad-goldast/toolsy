@@ -2,9 +2,10 @@
   "name": "toolsy",
   "version": "0.0.1",
   "description": "A great collection of tools used by JavaScript for programmers.",
-  "main": "index.js",
+  "main": "build/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel index.js -d build"
   },
   "repository": {
     "type": "git",
@@ -17,10 +18,17 @@
     "utilities",
     "js_tools"
   ],
+  "files": [
+    "LICENSE"
+  ],
   "author": "Mohammad Goldast <goldast.xps@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/mohammad-goldast/toolsy/issues"
   },
-  "homepage": "https://github.com/mohammad-goldast/toolsy#readme"
+  "homepage": "https://github.com/mohammad-goldast/toolsy#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
 }
