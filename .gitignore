@@ -1,0 +1,17 @@
+# --------------------------------------- OSX
+#
+.DS_Store
+.vscode/
+
+# --------------------------------------- node.js
+#
+node_modules/
+node_modules.zip
+npm-debug.log
+package-lock.json
+
+# --------------------------------------- Test
+#
+coverage/*
+jest/*
+devTest.js
