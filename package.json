@@ -1,0 +1,26 @@
+{
+  "name": "toolsy",
+  "version": "0.0.1",
+  "description": "A great collection of tools used by JavaScript for programmers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohammad-goldast/toolsy.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "tools",
+    "utils",
+    "utilities",
+    "js_tools"
+  ],
+  "author": "Mohammad Goldast",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mohammad-goldast/toolsy/issues"
+  },
+  "homepage": "https://github.com/mohammad-goldast/toolsy#readme"
+}
