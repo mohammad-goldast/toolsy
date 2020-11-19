@@ -14,7 +14,7 @@ So we decided to make a great collection of these tools in one package that we c
 * [Installation](#-installation)
 * [Usage](#-usage) _- Get Started_
 
-#🌵 Installation
+# 🌵 Installation
 
 You can install the library with awesome **yarn**:
 
@@ -28,7 +28,7 @@ or with **npm**:
 npm install toolsy
 ```
 
-#📟 Usage
+# 📟 Usage
 
 You can import the library in the following ways:
 
@@ -47,7 +47,7 @@ import { isEven } from 'toolsy';
 console.log(isEven(5));
 ```
 
-#⛏️ API
+# ⛏️ API
 
 Here is our API place.
 
