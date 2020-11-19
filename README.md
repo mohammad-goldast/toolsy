@@ -29,6 +29,7 @@ npm install toolsy
 ```
 
 #📟 Usage
+
 You can import the library in the following ways:
 
 ```javascript
@@ -47,6 +48,7 @@ console.log(isEven(5));
 ```
 
 #⛏️ API
+
 Here is our API place.
 
 # ⚖️ License
