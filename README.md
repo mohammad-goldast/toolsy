@@ -129,7 +129,7 @@ toArabic(12345)
 ```
 
 # Object 
-- #### isEmpty ()
+- #### isEmpty()
 ```javascript
 isEmpty({})
   // true
