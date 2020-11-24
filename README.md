@@ -14,9 +14,9 @@ So we decided to make a great collection of these tools in one package that we c
 * [Installation](#-installation)
 * [Usage](#-usage) _- Get Started_
 * [API](#-api)
-  - [Number](#-number)
-  - [Object](#-object)
-  - [Array](#-array)
+  - [Number](#number-1)
+  - [Object](#object-1)
+  - [Array](#array-1)
 
 # 🌵 Installation
 
