@@ -84,73 +84,73 @@ console.log(isEven(5));
 
    - #### isNumber()
 ```javascript
-  isNumber(2)
-   // true
+isNumber(2)
+  // true
 ```
    - #### isEven()
 ```javascript
-  isEven(2)
-   // true
+isEven(2)
+  // true
 ```
    - #### isOdd()
 ```javascript
-  isOdd(2)
-   // false
+isOdd(2)
+  // false
 ```
    - #### putComma()
 ```javascript
-  putCommas (123)
-   // 123
+putCommas (123)
+  // 123
    
-  putCommas (1234)
-   // 1,234
+putCommas (1234)
+  // 1,234
    
-  putCommas (1234567)
-   // 1,234,567
+putCommas (1234567)
+  // 1,234,567
 ```
    
    - #### toEnglish()
 ```javascript
-  toEnglish("۱۲۳۴")
-   // 1234
+toEnglish("۱۲۳۴")
+  // 1234
 ```
    - #### toArabic()
 ```javascript
-  toArabic(12345)
-   // "۱۲۳۴۵"
+toArabic(12345)
+  // "۱۲۳۴۵"
 ```
 
 # Object 
 - #### isEmpty ()
 ```javascript
-  isEmpty({})
-   // true
+isEmpty({})
+  // true
    
-  isEmpty({ name: 'toolsy' })
-   // false
+isEmpty({ name: 'toolsy' })
+  // false
 ```
 - #### toArray()
 ```javascript
-  toArray({ name: 'toolsy', language: 'javaScript' })
-   // ['toolsy', 'javaScript']
+toArray({ name: 'toolsy', language: 'javaScript' })
+  // ['toolsy', 'javaScript']
 ```
 
 # Array
 
    - #### isEmpty()
 ```javascript
-  isEmpty([])
-   // true
+isEmpty([])
+  // true
 ```
    - #### sort()
 ```javascript
-  sort([1,66, 12, 20])
-   // [1, 12, 20, 66]
+sort([1,66, 12, 20])
+  // [1, 12, 20, 66]
 ```
    - #### sortByProp()
 ```javascript
-  sortByProp([ { name: 'Sarah', age: 19 }, { name: 'Alex', age: 12 } ], "age")
-   // [ { name: 'Alex', age: 12 }, { name: 'Sarah', age: 19 } ]
+sortByProp([ { name: 'Sarah', age: 19 }, { name: 'Alex', age: 12 } ], "age")
+  // [ { name: 'Alex', age: 12 }, { name: 'Sarah', age: 19 } ]
 ```
 
 # ⚖️ License
