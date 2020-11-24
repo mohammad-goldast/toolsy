@@ -19,7 +19,7 @@ export const object = {
     * 
     * @param {*} obj 
     * Convert your object to array.
-    * { name: 'toolsy', version: 1 } => ["toolsy", 1]
+    * toArray({ name: 'toolsy', version: 1 }) => ["toolsy", 1]
     */
     toArray: (obj = {}) => {
         return Object.keys(obj).map(k => obj[k])
