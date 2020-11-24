@@ -84,54 +84,54 @@ console.log(isEven(5));
 
    - #### isNumber()
 ```javascript
-   isNumber(2)
+  isNumber(2)
    // true
 ```
    - #### isEven()
 ```javascript
-   isEven(2)
+  isEven(2)
    // true
 ```
    - #### isOdd()
 ```javascript
-   isOdd(2)
+  isOdd(2)
    // false
 ```
    - #### putComma()
 ```javascript
-   putCommas (123)
+  putCommas (123)
    // 123
    
-     putCommas (1234)
+  putCommas (1234)
    // 1,234
    
-     putCommas (1234567)
+  putCommas (1234567)
    // 1,234,567
 ```
    
    - #### toEnglish()
 ```javascript
-   toEnglish("۱۲۳۴")
+  toEnglish("۱۲۳۴")
    // 1234
 ```
    - #### toArabic()
 ```javascript
-   toArabic(12345)
+  toArabic(12345)
    // "۱۲۳۴۵"
 ```
 
 # Object 
 - #### isEmpty ()
 ```javascript
-   isEmpty({})
+  isEmpty({})
    // true
    
-   isEmpty({ name: 'toolsy' })
+  isEmpty({ name: 'toolsy' })
    // false
 ```
 - #### toArray()
 ```javascript
-   toArray({ name: 'toolsy', language: 'javaScript' })
+  toArray({ name: 'toolsy', language: 'javaScript' })
    // ['toolsy', 'javaScript']
 ```
 
@@ -139,17 +139,17 @@ console.log(isEven(5));
 
    - #### isEmpty()
 ```javascript
-   isEmpty([])
+  isEmpty([])
    // true
 ```
    - #### sort()
 ```javascript
-   sort([1,66, 12, 20])
+  sort([1,66, 12, 20])
    // [1, 12, 20, 66]
 ```
    - #### sortByProp()
 ```javascript
-   sortByProp([ { name: 'Sarah', age: 19 }, { name: 'Alex', age: 12 } ], "age")
+  sortByProp([ { name: 'Sarah', age: 19 }, { name: 'Alex', age: 12 } ], "age")
    // [ { name: 'Alex', age: 12 }, { name: 'Sarah', age: 19 } ]
 ```
 
