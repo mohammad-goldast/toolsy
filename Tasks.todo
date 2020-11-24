@@ -2,7 +2,8 @@ Toolsy Project:
     
     TOOLS: 
         ☐ [Number] - toRialPrice - We need to convert english digits to Arabic digits and put comma between each 3-digit piece.
-        ☐ [Array]  - addOrRemove - We need to check a array for a specific value, Delete the value if there is, and add the value if there is not.
+        ☐ [Array]  - addOrRemove - We need to check an array for a specific value, Delete the value if there is, and add the value if there is not.
+        ☐ [Array]  - uniq        - We need to check an array for remove delete duplicated data.
 
 
     TESTS: 
