@@ -1,1 +1,3 @@
-export const helloWorld = () => 'Hello world!';
+export * from './Object.js';
+export * from './Array.js';
+export * from './Number.js';
