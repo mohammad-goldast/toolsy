@@ -15,24 +15,18 @@ Object.defineProperty(exports, 'object', {
 
 var _Array = require('./utils/Array.js');
 
-Object.keys(_Array).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  Object.defineProperty(exports, key, {
-    enumerable: true,
-    get: function get() {
-      return _Array[key];
-    }
-  });
+Object.defineProperty(exports, 'array', {
+  enumerable: true,
+  get: function get() {
+    return _Array.array;
+  }
 });
 
 var _Number = require('./utils/Number.js');
 
-Object.keys(_Number).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  Object.defineProperty(exports, key, {
-    enumerable: true,
-    get: function get() {
-      return _Number[key];
-    }
-  });
+Object.defineProperty(exports, 'number', {
+  enumerable: true,
+  get: function get() {
+    return _Number.number;
+  }
 });
