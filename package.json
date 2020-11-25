@@ -2,7 +2,7 @@
   "name": "toolsy",
   "version": "0.6.0",
   "description": "A great collection of tools used by JavaScript for programmers.",
-  "main": "build/index.js",
+  "main": "build/utils",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel src -d build"
