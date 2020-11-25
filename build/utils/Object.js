@@ -29,7 +29,7 @@ var object = exports.object = {
     * 
     * @param {*} obj 
     * Convert your object to array.
-    * { name: 'toolsy', version: 1 } => ["toolsy", 1]
+    * toArray({ name: 'toolsy', version: 1 }) => ["toolsy", 1]
     */
     toArray: function toArray() {
         var obj = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
