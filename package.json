@@ -1,6 +1,6 @@
 {
   "name": "toolsy",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "A great collection of tools used by JavaScript for programmers.",
   "main": "build/index.js",
   "scripts": {
