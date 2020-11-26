@@ -46,15 +46,15 @@ You can import the library in the following ways:
 import * as toolsy from 'toolsy';
 // Import all tools named toolsy.
 
-console.log(toolsy.isEven(5));
+console.log(toolsy.array.isEmpty([]));
 ```
 Or:
 
 ```javascript
-import { isEven } from 'toolsy';
+import { array } from 'toolsy';
 // Direct import of required tools.
 
-console.log(isEven(5));
+console.log(array.isEmpty([]));
 ```
 
 # ⛏️ API
