@@ -16,3 +16,12 @@ yarn.lock
 coverage/*
 jest/*
 devTest.js
+
+# --------------------------------------- Build
+#
+buildPackage.*
+/build/version.txt
+/build/README.md
+/build/package.json
+/build/LICENSE
+/build/.npmignore
