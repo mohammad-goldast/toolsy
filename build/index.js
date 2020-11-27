@@ -4,29 +4,29 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _Object = require('./utils/Object.js');
+var _object = require('./utils/object.js');
 
 Object.defineProperty(exports, 'object', {
   enumerable: true,
   get: function get() {
-    return _Object.object;
+    return _object.object;
   }
 });
 
-var _Array = require('./utils/Array.js');
+var _array = require('./utils/array.js');
 
 Object.defineProperty(exports, 'array', {
   enumerable: true,
   get: function get() {
-    return _Array.array;
+    return _array.array;
   }
 });
 
-var _Number = require('./utils/Number.js');
+var _number = require('./utils/number.js');
 
 Object.defineProperty(exports, 'number', {
   enumerable: true,
   get: function get() {
-    return _Number.number;
+    return _number.number;
   }
 });
