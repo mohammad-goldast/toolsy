@@ -90,22 +90,22 @@ console.log(isEven(5));
 
 # Number
 
-   - #### isNumber()
+- #### isNumber()
 ```javascript
 isNumber(2)
   // true
 ```
-   - #### isEven()
+- #### isEven()
 ```javascript
 isEven(2)
   // true
 ```
-   - #### isOdd()
+- #### isOdd()
 ```javascript
 isOdd(2)
   // false
 ```
-   - #### putComma()
+- #### putComma()
 ```javascript
 putCommas(123)
   // 123
@@ -117,12 +117,12 @@ putCommas (1234567)
   // 1,234,567
 ```
    
-   - #### toEnglish()
+- #### toEnglish()
 ```javascript
 toEnglish("۱۲۳۴")
   // 1234
 ```
-   - #### toArabic()
+- #### toArabic()
 ```javascript
 toArabic(12345)
   // "۱۲۳۴۵"
@@ -145,17 +145,17 @@ toArray({ name: 'toolsy', language: 'javaScript' })
 
 # Array
 
-   - #### isEmpty()
+- #### isEmpty()
 ```javascript
 isEmpty([])
   // true
 ```
-   - #### sort()
+- #### sort()
 ```javascript
 sort([1,66, 12, 20])
   // [1, 12, 20, 66]
 ```
-   - #### sortByProp()
+- #### sortByProp()
 ```javascript
 sortByProp([ { name: 'Sarah', age: 19 }, { name: 'Alex', age: 12 } ], "age")
   // [ { name: 'Alex', age: 12 }, { name: 'Sarah', age: 19 } ]
