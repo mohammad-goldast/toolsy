@@ -38,3 +38,4 @@ export const array = {
         return arr.sort((a, b) => a[prop] - b[prop]);
     },
 };
+
