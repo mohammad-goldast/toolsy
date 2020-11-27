@@ -18,7 +18,8 @@
     "js_tools"
   ],
   "files": [
-    "LICENSE"
+    "LICENSE",
+    "/build"
   ],
   "author": "Mohammad Goldast <goldast.xps@gmail.com>",
   "license": "MIT",
