@@ -19,7 +19,8 @@
   ],
   "files": [
     "LICENSE",
-    "/build"
+    "/build",
+    "/build/utils"
   ],
   "author": "Mohammad Goldast <goldast.xps@gmail.com>",
   "license": "MIT",
