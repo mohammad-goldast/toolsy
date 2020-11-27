@@ -1,6 +1,6 @@
 {
   "name": "toolsy",
-  "version": "0.8.6",
+  "version": "0.8.8",
   "description": "A great collection of tools used by JavaScript for programmers.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -19,8 +19,8 @@
   ],
   "files": [
     "LICENSE",
-    "/build",
-    "/build/utils"
+    "/build/",
+    "/build/utils/*"
   ],
   "author": "Mohammad Goldast <goldast.xps@gmail.com>",
   "license": "MIT",
