@@ -1,10 +1,13 @@
 {
   "name": "toolsy",
-  "version": "0.8.8",
+  "version": "0.9.4",
   "description": "A great collection of tools used by JavaScript for programmers.",
+  "main": "/build/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel src -d build"
+    "build": "babel src -d build",
+    "clean": "rm -rf build",
+    "buildPackage": "npm run clean && npm run build && node build/buildPackage.js"
   },
   "repository": {
     "type": "git",
@@ -19,8 +22,7 @@
   ],
   "files": [
     "LICENSE",
-    "/build/",
-    "/build/utils/*"
+    "/utils/*"
   ],
   "author": "Mohammad Goldast <goldast.xps@gmail.com>",
   "license": "MIT",
