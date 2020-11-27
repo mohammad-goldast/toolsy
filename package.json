@@ -1,13 +1,14 @@
 {
   "name": "toolsy",
-  "version": "0.9.4",
+  "version": "0.9.5",
   "description": "A great collection of tools used by JavaScript for programmers.",
   "main": "/build/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel src -d build",
     "clean": "rm -rf build",
-    "buildPackage": "npm run clean && npm run build && node build/buildPackage.js"
+    "buildPackage": "npm run clean && npm run build && node build/buildPackage.js",
+    "fire": "npm publish build"
   },
   "repository": {
     "type": "git",
